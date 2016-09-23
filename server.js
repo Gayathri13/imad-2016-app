@@ -1,10 +1,8 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-<meta name="viewport" content="width-device-width,install-scale\"/>
 var app = express();
 app.use(morgan('combined'));
-
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
