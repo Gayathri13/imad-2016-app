@@ -2,10 +2,12 @@ body {
     font-family: sans-serif;
     background-color: lightblue;
     margin-top: 75px;
+    
 }
 
 .center {
     text-align: center;
+   
 }
 
 .text-big {
