@@ -31,7 +31,7 @@ var createTemplate=function(data){
 			<style>   
 			body {
 				font-family: times-new-roman;
-			background-image: url(CherryBlossom.jpg);
+			background-image: url(ui/CherryBlossom.jpg);
 				margin-top: 150px;
 			}
 			</style>
