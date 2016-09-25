@@ -19,7 +19,7 @@ var links={
 		`	
 }
 };
-var createTemplate(data){
+var createTemplate=function(data){
 	var style=data.style;
 	var title=data.title;
 	var heading=data.heading;
